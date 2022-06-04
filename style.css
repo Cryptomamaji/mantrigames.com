@@ -1,0 +1,113 @@
+body{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin:0px;
+    padding:0px;
+    }
+    html {
+        height: 100%;
+        margin:0px;
+        padding:0px;
+    }
+     .deader-part{
+            background:#0081ff;
+            height:40px;
+            color:#FFFFFF;
+            line-height:40px;
+            padding-left:10px;
+            font-size:14px;
+            }
+            
+    .form-control{
+    margin-top:2px;
+    width:93%;
+    border-radius:25px;
+    background:#FFFFFF;
+    border:none;
+    height:35px;
+    outline:none;
+    padding-left:30px;
+    font-size:14px;
+    background:url(phone-icon.png) #FFFFFF 7px no-repeat;
+    }		
+    
+    .form-control-pass{
+    margin-top:2px;
+    width:93%;
+    border-radius:25px;
+    background:#FFFFFF;
+    border:none;
+    height:35px;
+    outline:none;
+    padding-left:30px;
+    font-size:14px;
+    background:url(password.png) #FFFFFF 7px no-repeat;
+    }
+    .submit-login{
+    width:48%;
+    height:40px;
+    margin:0 auto;
+    }
+    .login-btn{
+    background:#0181fe;
+    color:#FFFFFF;
+    width:100%;
+    height:42px;
+    line-height:35px;
+    text-align:center;
+    border-radius:6px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    font-size:15px;
+    }
+    .forgt-pass{
+    width:45%;
+    float:left;
+    }	
+    
+    .login-btn-down{
+    background:#FFFFFF;
+    color:#000000;
+    width:auto;
+    padding:10px;
+    font-size:15px;
+    border-radius:25px;
+    outline:none;
+    border:none;
+    }	
+    
+    .footerpart{
+    background:#FFFFFF;
+    height:42px;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    }
+    .footerp{
+    padding-top:5px;
+    font-size:11px;
+    color:#666666;
+    width:33%;
+    border-left:0px #000000 solid;
+    float:left;
+    }
+    
+    
+    /*-------------------- loder  ----------*/
+    #loading{
+      position:fixed;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      background-color: gray;
+      color: white;
+      opacity: 1;
+      transition: 0.5s;
+      visibility: visible;
+    }
+    #loading.hidden{
+      opacity: 0;
+      visibility: hidden;
+    }
